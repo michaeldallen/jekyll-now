@@ -27,7 +27,8 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
+            <!-- <a href="{{ site.baseurl }}/pics">Pics</a> -->
+            <!-- <a href="{{ site.baseurl }}/">Blog</a> -->
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
@@ -38,6 +39,20 @@
       {{ content }}
     </div>
 
+    {% if site.footer-links.dribbble 
+    or site.footer-links.email 
+    or site.footer-links.facebook
+    or site.footer-links.flickr
+    or site.footer-links.github
+    or site.footer-links.instagram
+    or site.footer-links.linkedin
+    or site.footer-links.pinterest
+    or site.footer-links.rss
+    or site.footer-links.twitter
+    or site.footer-links.stackoverflow
+    or site.footer-links.youtube
+    or site.footer-links.googleplus %}
+
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -45,6 +60,7 @@
         </footer>
       </div>
     </div>
+    {% endif %}
 
     {% include analytics.html %}
   </body>

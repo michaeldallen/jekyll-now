@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Thanks to [Barry Clark](https://github.com/barryclark) for the [`jekyll-now`](https://github.com/barryclark/jekyll-now) theme and nicely written bootstrapping instructions.
 
-### More Information
+Thanks to [Jana Bergant](https://www.udemy.com/user/jana-bergant/) for [_Jekyll: make fast, secure static sites and blogs with Jekyll_](https://www.udemy.com/static-website-generator-fast-secure-sites-blogs-with-jekyll/)
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Site host on [GitHub](https://michaeldallen.github.io/)
