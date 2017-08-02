@@ -18,16 +18,16 @@ avatar: /images/wip.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: #michael@allenhub.net
+  email: # michael@allenhub.net
   facebook:
   flickr:
-  github: michaeldallen/michaeldallen.github.io
+  github: # michaeldallen
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
-  stackoverflow: users/8296902/michael-d-allen
+  stackoverflow: # users/8296902/michael-d-allen
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
