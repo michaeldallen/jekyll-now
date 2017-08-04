@@ -1,0 +1,7 @@
+# Liquid
+{% capture raw_liquid_tags %}
+{% raw %}{{page.url}}{% endraw %}: {{page.url}}
+{% raw %}{{page.previous.url}}{% endraw %}: {{page.previous.url}}
+{% raw %}{{page.next.url}}{% endraw %}: {{page.next.url}}
+{% endcapture %}
+{{ raw_liquid_tags | newline_to_br }}

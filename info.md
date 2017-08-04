@@ -10,5 +10,5 @@ Thanks to [Jana Bergant](https://www.udemy.com/user/jana-bergant/) for [_Jekyll:
 
 Thanks to [GitHub](https://github.com) for hosting [this _Jekyll_ site](https://michaeldallen.github.io/).
 
-## Page Information from Liquid
-{% raw %}{{page.url}}{% endraw %}: {{page.url}}
+{% include liquid.html %}
+
