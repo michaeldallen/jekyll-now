@@ -27,10 +27,9 @@
           </div>
 
           <nav>
-            <!-- <a href="{{ site.baseurl }}/pics">Pics</a>   -->
-            <!-- <a href="{{ site.baseurl }}/">Blog</a>       -->
-            <!-- <a href="{{ site.baseurl }}/about">About</a> -->
-            <a href="{{ site.baseurl }}/info">Information</a>
+            <{% if page.url == "/galapagos/"   %}class="active"{% endif %}a href="{{ site.baseurl }}/galapagos">Galapagos</a>
+            <{% if page.url == "/jekyll_blog/" %}class="active"{% endif %}a href="{{ site.baseurl }}/jekyll_blog">Jekyll Blog</a>
+            <{% if page.url == "/info/"        %}class="active"{% endif %}a href="{{ site.baseurl }}/info">Information</a>
           </nav>
         </header>
       </div>
