@@ -1,1 +1,2 @@
-a funny thing happened on the way to the forum
+A funny thing happened on the way to the weekend ...
+
