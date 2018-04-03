@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: Group Anti-Patterns
