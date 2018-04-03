@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+<<<<<<< HEAD
+            <{% if page.url == "/galapagos/"   %}class="active"{% endif %}a href="{{ site.baseurl }}/galapagos">alapagos</a>
+            <{% if page.url == "/jekyll_blog/" %}class="active"{% endif %}a href="{{ site.baseurl }}/jekyll_blog">ekyll Blog</a>
+            <{% if page.url == "/info/"        %}class="active"{% endif %}a href="{{ site.baseurl }}/info">nformation</a>
+=======
+#            <{% if page.url == "/galapagos/"   %}class="active"{% endif %}a href="{{ site.baseurl }}/galapagos">Galapagos</a>
+            <{% if page.url == "/jekyll_blog/" %}class="active"{% endif %}a href="{{ site.baseurl }}/jekyll_blog">Jekyll Blog</a>
+#            <{% if page.url == "/info/"        %}class="active"{% endif %}a href="{{ site.baseurl }}/info">Information</a>
+>>>>>>> single_stream
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    {% if site.footer-links.dribbble 
+    or site.footer-links.email 
+    or site.footer-links.facebook
+    or site.footer-links.flickr
+    or site.footer-links.github
+    or site.footer-links.instagram
+    or site.footer-links.linkedin
+    or site.footer-links.pinterest
+    or site.footer-links.rss
+    or site.footer-links.twitter
+    or site.footer-links.stackoverflow
+    or site.footer-links.youtube
+    or site.footer-links.googleplus %}
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+    {% endif %}
+
+    {% include analytics.html %}
+  </body>
+</html>
