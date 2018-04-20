@@ -27,7 +27,15 @@
           </div>
 
           <nav>
+<<<<<<< HEAD
+            <{% if page.url == "/galapagos/"   %}class="active"{% endif %}a href="{{ site.baseurl }}/galapagos">alapagos</a>
+            <{% if page.url == "/jekyll_blog/" %}class="active"{% endif %}a href="{{ site.baseurl }}/jekyll_blog">ekyll Blog</a>
+            <{% if page.url == "/info/"        %}class="active"{% endif %}a href="{{ site.baseurl }}/info">nformation</a>
+=======
+#            <{% if page.url == "/galapagos/"   %}class="active"{% endif %}a href="{{ site.baseurl }}/galapagos">Galapagos</a>
             <{% if page.url == "/jekyll_blog/" %}class="active"{% endif %}a href="{{ site.baseurl }}/jekyll_blog">Jekyll Blog</a>
+#            <{% if page.url == "/info/"        %}class="active"{% endif %}a href="{{ site.baseurl }}/info">Information</a>
+>>>>>>> single_stream
           </nav>
         </header>
       </div>
